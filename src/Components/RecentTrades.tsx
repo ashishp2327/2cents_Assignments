@@ -44,7 +44,7 @@ export default function RecentTrades() {
     }, []);
 
     return (
-        <div className="w-[380px] h-[500px] bg-gradient-to-b from-[#141420] to-[#0A0A0F] border border-white/10 rounded-2xl shadow-xl backdrop-blur-md p-4 flex flex-col">
+<div className="w-full sm:w-[380px] h-[500px] bg-gradient-to-b from-[#141420] to-[#0A0A0F] border border-white/10 rounded-2xl shadow-xl backdrop-blur-md p-4 flex flex-col">
             <h3 className="text-lg font-semibold mb-3 text-gray-200 border-b border-white/10 pb-2">Recent Trades</h3>
 
             <div className="overflow-y-auto flex-1 font-mono text-sm scrollbar-thin scrollbar-thumb-white/10 space-y-1">
